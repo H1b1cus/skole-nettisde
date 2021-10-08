@@ -1,42 +1,52 @@
 body {
-    background-color: #68769c;
+    background-color: #c2c9cf;
     color: lightgray
   }
-  .grid-container {
+.grid-container { 
     display: grid;
-border-style: groove;
-grid-template-columns: repeat(5, 1fr);
+   border-style: groove;
+   grid-template-columns: repeat(5, 1fr);
+   border-color: black;
   }
-  .grid-item1{
+
+.grid-item1{ /*Dette er en grid*/
       display: grid;
       grid-column: span 2;
       border-style: groove;
       color: black;
       background-color: lightgray;
+      border-color: black;
   }
-  .grid-item2{
+.grid-item2{
     grid-column: span 6;
     text-align: center;
     padding: 50px;
+    border-color: black;
   }
-  .grid-item3 {
-    background-color: #b5a591;
+.grid-item3 {
+    background-color: #5a7d9c;
     border-style: groove;
     grid-column: span 6;
     padding: 25px;
+    border-color: black;
+    text-align: center;
 }
 .grid-item4 {
   border-style: groove;
-  grid-column: span 6;
-  background-color: #6e5641;
-padding: 25px;
+  grid-column: span 6; /*Bestemmer hvor land en grid skal være*/
+  background-color: #496985;
+  padding: 25px;
+  border-color: black;
+  text-align: center;
 
 }
 .grid-item5{
   border-style: groove;
-  background-color: #b5a591;
-  padding: 25px;
+  background-color: #39546b;
+  padding: 25px; /*Denne bestemmer hvor lang en grid skal være*/
   grid-column: span 6;
+  border-color: black;
+  text-align: center;
 }
 
 .grid-item6 {
@@ -45,6 +55,7 @@ padding: 25px;
   grid-column: 3/6;
   text-align: center;
   background-color: lightgray;
+  border-color: black;
 }
 
 .grid-item7 {
@@ -53,8 +64,8 @@ padding: 25px;
 }
 
 
-a {
-  color: black;
+a { /*Denne kontrollerer lenkene*/
+  color: #d1d8e6;
   font-size: 20px;
   padding: 16px;
 }
@@ -64,11 +75,15 @@ h3 {
   font-weight: lighter;
 }
 
-p {
+p { 
   font-size: 20px;
   color: black;
 }
 
 h2 {
+  color: black;
+}
+
+h1 {
   color: black;
 }
