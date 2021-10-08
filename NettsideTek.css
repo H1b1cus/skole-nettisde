@@ -1,0 +1,31 @@
+body {
+    background-color: #bcccd1;
+    color: black;
+}
+.grid-container {
+    display: grid;
+}
+
+.grid-item1 { 
+  border-style: groove;
+  grid-column: span 6;
+  background-color: #bcccd1;
+
+}
+ .grid-item2 {
+    border-style: groove;
+    grid-column: span 4;
+    background-color: #bcccd1;
+    
+}
+.grid-item3 {
+    text-align: center;
+    grid-column: span 6;
+    border-style: groove;
+    background-color:#bcccd1;
+}
+
+p {
+    font-size: 18px;
+  }
+
