@@ -1,42 +1,48 @@
 body {
-    background-color: #b5a591;
+    background-color: #c2c9cf;
     color: lightgray
   }
   .grid-container {
     display: grid;
-border-style: groove;
-grid-template-columns: repeat(5, 1fr);
+    border-style: groove;
+    grid-template-columns: repeat(5, 1fr);
+    border-color: black;
+
   }
   .grid-item1{
       display: grid;
       grid-column: span 6;
-      border-style: double;
-      color: black;
+      border-style: groove;
+      border-color: black;
       background-color: lightgray;
   }
   .grid-item2{
     grid-column: span 6;
     text-align: center;
     padding: 50px;
+    border-color: black;
   }
   .grid-item3 {
-    background-color: #3f425c;
+    background-color: #67856c;
     border-style: groove;
     grid-column: span 6;
     padding: 15px;
+    border-color: black;
 }
 .grid-item4 {
   border-style: groove;
   grid-column: span 6;
-  background-color: #6e5641;
-padding: 15px;
+  background-color: #56705b;
+  padding: 15px;
+  border-color: black;
 
 }
 .grid-item5{
   border-style: groove;
-    background-color: #3f425c;
+    background-color: #455c49;
   padding: 15px;
   grid-column: span 6;
+  border-color: black;
 }
 
 .grid-item6 {
@@ -53,7 +59,7 @@ padding: 15px;
 
 
 a {
-  color: black;
+  color: #1e1f21;
   font-size: 20px;
   padding: 16px;
 }
